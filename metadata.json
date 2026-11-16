@@ -1,0 +1,8 @@
+{
+  "name": "MediBook",
+  "description": "Smarter Healthcare. Simpler Scheduling. Commercial medical clinic management and appointment booking SaaS platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "PatientAccount": {
+      "title": "PatientAccount",
+      "description": "Authenticated patient account identity mirrored from Firebase Authentication.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Firebase Auth UID",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "fullName": {
+          "type": "string",
+          "description": "Patient display name",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Verified account email address",
+          "minLength": 3,
+          "maxLength": 160
+        },
+        "authProvider": {
+          "type": "string",
+          "enum": ["google"],
+          "description": "Authentication provider"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server creation timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server update timestamp"
+        }
+      },
+      "required": ["uid", "fullName", "email", "authProvider", "createdAt", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/PatientAccount" },
+      "description": "Private patient identity records strictly scoped to owner or clinic administrator."
+    }
+  }
+}

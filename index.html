@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al-Shifa Medical Clinic — Banha | Medical Consultations & Appointments</title>
+    <meta
+      name="description"
+      content="Al-Shifa Medical Clinic in Banha. Explore medical services, specialist credentials, clinic hours, patient reviews, and book consultations online."
+    />
+    <meta
+      property="og:title"
+      content="Al-Shifa Medical Clinic — Banha | Medical Consultations & Appointments"
+    />
+    <meta
+      property="og:description"
+      content="Al-Shifa Medical Clinic in Banha. Book in-clinic or online medical consultations easily."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var storedTheme = localStorage.getItem('khalid_yasser_theme');
+          var prefersDark =
+            window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = storedTheme || (prefersDark ? 'dark' : 'dark');
+          if (theme === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+          var storedLang = localStorage.getItem('khalid_yasser_lang') || 'en';
+          document.documentElement.lang = storedLang;
+          document.documentElement.dir = storedLang === 'ar' ? 'rtl' : 'ltr';
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F6F7F5] text-[#0F1419] dark:bg-[#080A0D] dark:text-[#F5F7FA] antialiased selection:bg-[#27C2A4]/25 selection:text-[#0F766E] dark:selection:text-[#27C2A4]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
