@@ -1,0 +1,2159 @@
+# KHALED YASSER — PREMIUM DOCTOR WEBSITE & APPOINTMENT MANAGEMENT SYSTEM
+
+## ROLE
+
+Act as a **Senior Product Designer, Senior Full-Stack Engineer, UI/UX Architect, SaaS Designer, and Branding Specialist**.
+
+You are redesigning and building a complete production-quality website for:
+
+**Dr. Khaled Yasser**
+
+The website belongs to a real doctor who owns/runs a medical clinic and wants a premium personal professional website that presents his medical identity, specialization, qualifications, certificates, clinic information, patient reviews, and appointment system.
+
+This is NOT a generic medical template.
+
+This is a **premium personal doctor brand + appointment booking system + private doctor dashboard + patient portal**.
+
+The website must feel like a real premium doctor's digital presence.
+
+---
+
+# 1. CORE CONCEPT
+
+The website has two connected experiences:
+
+### Public Doctor Website
+
+Visitors can:
+
+- Learn about Dr. Khaled Yasser
+- See his specialty
+- Read his biography
+- See qualifications
+- View certificates
+- See clinic information
+- See location
+- View professional experience
+- Read patient reviews
+- Contact him through WhatsApp
+- Create an account
+- Login with Google
+- Book an appointment
+
+### Private Patient Portal
+
+Patients can:
+
+- Login
+- View their profile
+- View doctor information
+- Book appointments
+- Track appointment status
+- View appointment history
+- Cancel appointments when allowed
+- See complete booking details
+- Receive appointment updates
+
+### Private Doctor Admin Dashboard
+
+Only the doctor/admin can access it.
+
+The doctor can:
+
+- View all patients
+- View booking requests
+- Accept appointments
+- Reject appointments
+- Cancel appointments
+- Manage available appointment times
+- View booked appointments
+- View pending appointments
+- View patient details
+- View website analytics
+- View booking analytics
+- Manage doctor profile
+- Manage reviews
+- Manage certificates
+- Manage clinic information
+
+---
+
+# 2. IMPORTANT BRANDING
+
+The website must be branded around:
+
+**Dr. Khaled Yasser**
+
+Do NOT use the previous generic MediBook visual identity.
+
+Do NOT make the site look like:
+
+- A hospital website
+- A generic clinic template
+- A booking SaaS template
+- A Bootstrap template
+
+The design should communicate:
+
+**Professional Doctor + Personal Brand + Trust + Premium Healthcare**
+
+The doctor himself is the brand.
+
+---
+
+# 3. DOCTOR IMAGE
+
+Use the uploaded image of **Dr. Khaled Yasser** as the main professional doctor image throughout the website.
+
+The uploaded image must be treated as the official doctor portrait.
+
+Do NOT replace his face.
+
+Do NOT generate another person.
+
+Do NOT alter his facial identity.
+
+Use the image in:
+
+- Hero section
+- About section
+- Doctor profile
+- Booking page
+- Patient dashboard
+- Contact section
+- Doctor dashboard profile
+- Mobile layouts where appropriate
+
+The hero should feature the doctor prominently.
+
+The image should have premium professional treatment such as:
+
+- Elegant cropping
+- Soft lighting
+- Subtle background separation
+- Large editorial composition
+- Soft gradient behind the portrait
+- Optional subtle glow
+- Premium medical branding
+
+Do NOT over-edit the photo.
+
+---
+
+# 4. OVERALL VISUAL DIRECTION
+
+Completely redesign the visual identity.
+
+The website should look like a combination of:
+
+**Premium personal brand website + modern private clinic + high-end SaaS booking experience.**
+
+Design inspiration:
+
+- Apple-level simplicity
+- Linear-style interface precision
+- Luxury personal branding
+- Premium medical websites
+- Modern editorial layouts
+
+Avoid generic medical design.
+
+Avoid excessive:
+
+- Blue gradients
+- Rounded cards
+- Stock medical icons
+- Generic hospital imagery
+- Massive text blocks
+- Template-looking dashboards
+
+Use sophisticated composition and typography.
+
+---
+
+# 5. COLOR SYSTEM
+
+Create a premium medical-luxury palette.
+
+Dark Mode:
+
+Background:
+
+`#080A0D`
+
+Primary Surface:
+
+`#10141A`
+
+Secondary Surface:
+
+`#151B22`
+
+Borders:
+
+`rgba(255,255,255,0.08)`
+
+Primary Text:
+
+`#F5F7FA`
+
+Secondary Text:
+
+`#9DA5B0`
+
+Accent:
+
+Use a sophisticated muted medical teal / emerald combined with a subtle warm metallic accent.
+
+Suggested accent:
+
+`#27C2A4`
+
+Secondary luxury accent:
+
+`#C8A96B`
+
+Do NOT overuse the gold.
+
+Gold should feel like a luxury detail rather than the main color.
+
+---
+
+# 6. LIGHT MODE
+
+Create a completely designed light theme.
+
+Do NOT simply invert dark mode.
+
+Light mode should use:
+
+- Warm white
+- Soft gray
+- Deep charcoal typography
+- Subtle borders
+- Elegant shadows
+- Medical teal
+- Minimal gold accents
+
+Theme switching must be smooth.
+
+Persist theme preference using localStorage.
+
+Respect system preference on first visit.
+
+---
+
+# 7. TYPOGRAPHY
+
+Typography must be one of the strongest visual features.
+
+Use a distinctive professional font.
+
+Primary:
+
+**Manrope**
+
+or
+
+**Sora**
+
+or
+
+**Plus Jakarta Sans**
+
+For Arabic:
+
+**IBM Plex Sans Arabic**
+
+or
+
+**Noto Kufi Arabic**
+
+Use large editorial headings.
+
+Typography hierarchy must be highly professional.
+
+Avoid:
+
+Arial
+
+Tahoma
+
+Default system fonts
+
+Use carefully controlled:
+
+- Letter spacing
+- Line height
+- Font weights
+- Heading sizes
+- Paragraph widths
+
+---
+
+# 8. LANGUAGE SUPPORT
+
+The website must support:
+
+**English + Arabic**
+
+Arabic must use:
+
+**RTL**
+
+English:
+
+**LTR**
+
+Include a language switcher.
+
+When Arabic is selected:
+
+- Layout direction changes
+- Navigation mirrors
+- Sidebar mirrors
+- Text alignment changes
+- Icons adapt where appropriate
+- Tables remain readable
+- Forms adapt correctly
+
+Arabic should not look like an afterthought.
+
+---
+
+# 9. PUBLIC HOME PAGE
+
+The first page visitors see must be the doctor's premium landing page.
+
+The first impression must immediately communicate:
+
+**Who is Dr. Khaled Yasser?**
+
+**What is his specialty?**
+
+**How can I book an appointment?**
+
+---
+
+# 10. HERO SECTION
+
+Create a cinematic hero section.
+
+Layout:
+
+Left:
+
+Doctor introduction.
+
+Example:
+
+**Dr. Khaled Yasser**
+
+Professional title:
+
+**[Doctor Specialty]**
+
+Headline:
+
+**"Expert care, built around you."**
+
+Supporting copy:
+
+A short professional description explaining his approach to patient care.
+
+Primary CTA:
+
+**Book an Appointment**
+
+Secondary CTA:
+
+**Explore My Profile**
+
+Right:
+
+Use the uploaded doctor portrait.
+
+The image should be large and visually dominant.
+
+Background:
+
+Use a sophisticated medical/clinic background image or abstract premium healthcare environment.
+
+Apply:
+
+- Dark overlay
+- Gradient
+- Soft blur
+- Subtle grain
+- Ambient lighting
+
+Add a small floating card:
+
+**Available for appointments**
+
+and another:
+
+**Trusted by patients**
+
+Use subtle animation.
+
+---
+
+# 11. NAVBAR
+
+Create a premium sticky navigation.
+
+Logo:
+
+**KHALED YASSER**
+
+Subtitle:
+
+**Doctor / Specialist**
+
+Navigation:
+
+- Home
+- About
+- Specialization
+- Certificates
+- Reviews
+- Clinic
+- Contact
+
+Primary CTA:
+
+**Book Appointment**
+
+Right side:
+
+- Language switch
+- Dark/Light toggle
+- Login
+- Create Account
+
+If the patient is already logged in:
+
+Show profile/avatar instead of Login.
+
+---
+
+# 12. WHATSAPP BUTTON
+
+Add a persistent WhatsApp contact button.
+
+WhatsApp number:
+
+**+20 12 85566897**
+
+The button should open a direct WhatsApp chat with the doctor.
+
+Use:
+
+`https://wa.me/201285566897`
+
+Do not require the patient to manually search for the doctor.
+
+Button text:
+
+**Chat with Dr. Khaled**
+
+On mobile:
+
+Floating WhatsApp button.
+
+On desktop:
+
+Floating button with elegant animation.
+
+---
+
+# 13. ABOUT DOCTOR
+
+Create an elegant editorial About section.
+
+Include:
+
+- Doctor image
+- Full name
+- Specialty
+- Professional biography
+- Experience
+- Medical philosophy
+- Patient care approach
+
+Use a premium asymmetric layout.
+
+Do NOT use a boring centered card.
+
+---
+
+# 14. SPECIALIZATION
+
+Create a dedicated section explaining:
+
+What the doctor specializes in.
+
+Include:
+
+- Main specialty
+- Medical services
+- Conditions treated
+- Consultation types
+
+Each service should have:
+
+- Icon
+- Name
+- Description
+
+Use subtle hover animations.
+
+---
+
+# 15. EXPERIENCE & QUALIFICATIONS
+
+Create a timeline.
+
+Example:
+
+2018
+
+Medical Degree
+
+2020
+
+Specialized Training
+
+2022
+
+Advanced Certification
+
+2024
+
+Professional Experience
+
+Use animated timeline elements.
+
+Do not invent real credentials.
+
+Use placeholders for information that the doctor/admin will provide.
+
+---
+
+# 16. CERTIFICATES
+
+Create a premium certificate gallery.
+
+Display:
+
+- Certificate image
+- Certificate title
+- Institution
+- Date
+- Description
+
+Clicking a certificate opens a beautiful modal/lightbox.
+
+Support:
+
+- Zoom
+- Fullscreen
+- Download if allowed
+
+Admin must be able to add/edit/remove certificates.
+
+---
+
+# 17. PATIENT REVIEWS
+
+Create a professional testimonials section.
+
+Each review contains:
+
+- Patient name
+- Rating
+- Review
+- Date
+- Optional verified booking badge
+
+Example:
+
+★★★★★
+
+"Excellent doctor and very professional."
+
+Do not create fake reviews in production.
+
+Use mock reviews only during development.
+
+Admin must be able to manage reviews.
+
+---
+
+# 18. CLINIC SECTION
+
+Create a premium clinic information section.
+
+Include:
+
+- Clinic name
+- Address
+- Working hours
+- Phone
+- WhatsApp
+- Available services
+- Consultation fees
+- Location
+
+Add a map section.
+
+Use Google Maps integration if configured.
+
+Include CTA:
+
+**Get Directions**
+
+---
+
+# 19. APPOINTMENT CTA
+
+Create strong CTA sections throughout the site.
+
+Example:
+
+**Ready to book your consultation?**
+
+Choose your preferred date and time.
+
+Button:
+
+**Book an Appointment**
+
+---
+
+# 20. BOOKING PAGE
+
+Create a dedicated appointment booking page.
+
+The user should select:
+
+### Step 1
+
+Appointment type
+
+- Clinic visit
+- Online consultation
+
+### Step 2
+
+Select date
+
+### Step 3
+
+Select available time
+
+Only available slots should appear.
+
+Booked slots must not be selectable.
+
+### Step 4
+
+Patient information
+
+### Step 5
+
+Booking confirmation
+
+Show summary:
+
+Doctor
+
+Date
+
+Time
+
+Appointment type
+
+Clinic
+
+Patient name
+
+Phone
+
+---
+
+# 21. APPOINTMENT STATUS
+
+Every booking must have a status.
+
+Possible statuses:
+
+**Pending**
+
+**Accepted**
+
+**Rejected**
+
+**Cancelled**
+
+**Completed**
+
+Use professional visual badges.
+
+Color meanings must be consistent throughout the application.
+
+---
+
+# 22. BOOKING FLOW
+
+When a patient books:
+
+Immediately create the appointment with:
+
+**Pending**
+
+status.
+
+The appointment automatically appears inside:
+
+**My Appointments**
+
+The patient sees:
+
+**Your appointment request has been sent successfully.**
+
+Then the doctor reviews it from the admin dashboard.
+
+If accepted:
+
+Status changes:
+
+**Accepted**
+
+If rejected:
+
+Status changes:
+
+**Rejected**
+
+If cancelled:
+
+Status changes:
+
+**Cancelled**
+
+---
+
+# 23. WHATSAPP BOOKING MESSAGE
+
+After a patient submits an appointment request, provide a WhatsApp action that opens a direct chat with the doctor.
+
+The WhatsApp message should be automatically prepared with the complete booking details.
+
+Example:
+
+Hello Dr. Khaled,
+
+I would like to request an appointment.
+
+Patient Name: Ahmed Mohamed
+
+Appointment Type: Clinic Visit
+
+Date: Sunday, 17 November
+
+Time: 06:30 PM
+
+Booking ID: MB-10482
+
+Status: Pending
+
+Please confirm the appointment.
+
+Thank you.
+
+The exact message must be dynamically generated from the actual booking data.
+
+Do NOT send the message automatically without user interaction.
+
+Open WhatsApp with the message pre-filled.
+
+---
+
+# 24. PATIENT AUTHENTICATION
+
+Patients must be able to:
+
+### Login
+
+Email
+
+Password
+
+Google
+
+### Create Account
+
+Name
+
+Email
+
+Phone
+
+Password
+
+Confirm Password
+
+Google
+
+### Forgot Password
+
+### Reset Password
+
+### Email Verification
+
+---
+
+# 25. GOOGLE LOGIN
+
+Implement:
+
+**Continue with Google**
+
+Use proper OAuth / Google Identity integration.
+
+Do not fake Google login.
+
+The frontend must be prepared for real backend authentication.
+
+---
+
+# 26. PATIENT DASHBOARD
+
+After login, the patient enters the patient portal.
+
+Main navigation:
+
+- Home
+- My Appointments
+- Book Appointment
+- Doctor
+- Profile
+- Notifications
+- Settings
+
+Dashboard greeting:
+
+**Welcome back, [Patient Name]**
+
+Show:
+
+- Upcoming appointment
+- Total appointments
+- Pending requests
+- Accepted appointments
+
+---
+
+# 27. PATIENT HOME
+
+Patient home should show:
+
+Doctor information
+
+Doctor photo
+
+Specialization
+
+Clinic location
+
+WhatsApp contact
+
+Next appointment
+
+Quick action:
+
+**Book Appointment**
+
+---
+
+# 28. MY APPOINTMENTS
+
+Create a dedicated page:
+
+**My Appointments**
+
+Show all bookings.
+
+Each booking displays:
+
+- Booking ID
+- Doctor
+- Date
+- Time
+- Appointment type
+- Clinic
+- Booking date
+- Status
+
+Statuses:
+
+Pending
+
+Accepted
+
+Rejected
+
+Cancelled
+
+Completed
+
+Add filters:
+
+- All
+- Pending
+- Accepted
+- Cancelled
+- Rejected
+- Completed
+
+---
+
+# 29. APPOINTMENT DETAILS
+
+Clicking an appointment opens detailed information.
+
+Show:
+
+Doctor
+
+Patient
+
+Date
+
+Time
+
+Appointment type
+
+Location
+
+Booking ID
+
+Status
+
+Created at
+
+Notes
+
+Actions:
+
+- Cancel
+- Contact doctor
+- Add to calendar
+
+Only show actions that are valid for the current status.
+
+---
+
+# 30. DOCTOR ADMIN DASHBOARD
+
+This is a PRIVATE area.
+
+It must never be visible to normal users.
+
+It must not appear in:
+
+- Public navbar
+- Patient navbar
+- Search
+- Sitemap
+- Public links
+
+Use protected routing AND backend authorization.
+
+Frontend protection alone is NOT security.
+
+---
+
+# 31. ADMIN LOGIN
+
+Create a completely separate secure doctor login.
+
+Example route:
+
+`/doctor-admin/login`
+
+The admin dashboard must require authentication.
+
+The admin account is:
+
+**Doctor / Administrator**
+
+Initial password requested:
+
+**0000**
+
+IMPORTANT SECURITY REQUIREMENT:
+
+Do NOT expose this password anywhere in the frontend.
+
+Do NOT place it in JavaScript.
+
+Do NOT display it in the UI.
+
+Do NOT hardcode it in public configuration.
+
+Store credentials securely on the backend.
+
+Hash passwords.
+
+Prefer environment/server configuration.
+
+Force a password change on first login if this initial password is used.
+
+---
+
+# 32. ADMIN ROUTING SECURITY
+
+The doctor dashboard must only be accessible to authorized admin users.
+
+Example:
+
+```text
+/doctor-admin/login
+
+/doctor-admin/dashboard
+
+/doctor-admin/appointments
+
+/doctor-admin/patients
+
+/doctor-admin/availability
+
+/doctor-admin/analytics
+
+/doctor-admin/profile
+
+/doctor-admin/settings
+```
+
+Unauthenticated users must be redirected to admin login.
+
+Patients must receive:
+
+**403 Forbidden**
+
+if they attempt to access admin resources.
+
+---
+
+# 33. ADMIN DASHBOARD HOME
+
+Create a premium analytics dashboard.
+
+Top statistics:
+
+- Total Patients
+- Total Appointments
+- Pending Requests
+- Accepted Appointments
+- Cancelled Appointments
+- Completed Appointments
+
+Revenue:
+
+- Today
+- This week
+- This month
+
+Website:
+
+- Visitors
+- Registered users
+- Booking conversion
+- Appointment requests
+
+---
+
+# 34. APPOINTMENT MANAGEMENT
+
+Admin sees all appointments.
+
+Table:
+
+Patient
+
+Phone
+
+Date
+
+Time
+
+Type
+
+Status
+
+Created At
+
+Actions
+
+Admin actions:
+
+Accept
+
+Reject
+
+Cancel
+
+Complete
+
+View Details
+
+---
+
+# 35. PENDING APPOINTMENTS
+
+Create a dedicated section for pending requests.
+
+Each request shows:
+
+Patient
+
+Requested date
+
+Requested time
+
+Appointment type
+
+Phone
+
+Notes
+
+Actions:
+
+**Accept**
+
+**Reject**
+
+When accepted:
+
+Update appointment status to:
+
+**Accepted**
+
+When rejected:
+
+Update to:
+
+**Rejected**
+
+The patient should see the updated status in My Appointments.
+
+---
+
+# 36. AVAILABILITY MANAGEMENT
+
+Doctor can manage available appointment times.
+
+Create:
+
+Weekly schedule
+
+Example:
+
+Saturday
+
+10:00 AM – 02:00 PM
+
+04:00 PM – 09:00 PM
+
+Sunday
+
+10:00 AM – 02:00 PM
+
+etc.
+
+Doctor can:
+
+- Add working hours
+- Remove hours
+- Block specific date
+- Block specific time
+- Create custom availability
+
+The booking page must automatically calculate available slots based on doctor availability and existing appointments.
+
+---
+
+# 37. CALENDAR
+
+Create a professional calendar.
+
+Views:
+
+Day
+
+Week
+
+Month
+
+Show:
+
+- Pending
+- Accepted
+- Completed
+- Cancelled
+
+Use different visual states.
+
+Click appointment to open details.
+
+---
+
+# 38. PATIENT MANAGEMENT
+
+Admin can view:
+
+Patient name
+
+Email
+
+Phone
+
+Number of appointments
+
+Last appointment
+
+Account status
+
+Click patient to see:
+
+- Profile
+- Appointment history
+- Booking statistics
+
+---
+
+# 39. WEBSITE ANALYTICS
+
+Create an analytics dashboard.
+
+Track:
+
+Page views
+
+Unique visitors
+
+Doctor profile views
+
+Book appointment clicks
+
+WhatsApp clicks
+
+Google login registrations
+
+New accounts
+
+Booking requests
+
+Accepted appointments
+
+Rejected appointments
+
+Cancellation rate
+
+Conversion rate
+
+Popular pages
+
+Traffic trend
+
+---
+
+# 40. ANALYTICS CHARTS
+
+Use professional charts.
+
+Include:
+
+### Visitors over time
+
+Line chart.
+
+### Appointments over time
+
+Area chart.
+
+### Appointment status
+
+Donut chart.
+
+### Most requested days
+
+Bar chart.
+
+### Booking conversion
+
+Funnel or percentage visualization.
+
+Support dark and light modes.
+
+---
+
+# 41. DOCTOR PROFILE MANAGEMENT
+
+Admin can edit:
+
+Name
+
+Specialty
+
+Biography
+
+Phone
+
+WhatsApp
+
+Email
+
+Clinic address
+
+Working hours
+
+Consultation fee
+
+Experience
+
+Qualifications
+
+Services
+
+Social links
+
+Doctor image
+
+---
+
+# 42. CERTIFICATE MANAGEMENT
+
+Admin can:
+
+Add certificate
+
+Upload image
+
+Edit certificate
+
+Delete certificate
+
+Change order
+
+Add title
+
+Add institution
+
+Add date
+
+Add description
+
+The public website updates dynamically.
+
+---
+
+# 43. REVIEW MANAGEMENT
+
+Admin can:
+
+View reviews
+
+Approve reviews
+
+Reject reviews
+
+Delete reviews
+
+Mark verified
+
+Reviews should not appear publicly until approved.
+
+---
+
+# 44. NOTIFICATIONS
+
+Patient notifications:
+
+Booking submitted
+
+Appointment accepted
+
+Appointment rejected
+
+Appointment cancelled
+
+Appointment reminder
+
+Doctor notifications:
+
+New appointment request
+
+Patient cancellation
+
+New review
+
+System notifications
+
+---
+
+# 45. MOBILE EXPERIENCE
+
+The entire application must be fully responsive.
+
+Mobile is NOT an afterthought.
+
+Public website:
+
+- Mobile navbar
+- Sticky booking button
+- Floating WhatsApp
+- Touch-friendly cards
+- Optimized doctor image
+
+Patient dashboard:
+
+Use mobile bottom navigation:
+
+Home
+
+Appointments
+
+Book
+
+Notifications
+
+Profile
+
+Doctor dashboard:
+
+Dashboard
+
+Calendar
+
+Appointments
+
+Patients
+
+Profile
+
+---
+
+# 46. DOCTOR IMAGE RESPONSIVENESS
+
+The uploaded doctor portrait must look excellent on:
+
+Desktop
+
+Tablet
+
+Mobile
+
+Do not crop the face.
+
+Maintain professional proportions.
+
+Use responsive object positioning.
+
+---
+
+# 47. MOTION DESIGN
+
+Use premium motion.
+
+Use:
+
+- Fade in
+- Slide up
+- Stagger
+- Blur transition
+- Image reveal
+- Number counters
+- Card hover
+- Page transitions
+- Modal transitions
+- Sidebar animation
+
+Avoid excessive animation.
+
+Respect:
+
+`prefers-reduced-motion`
+
+---
+
+# 48. BACKGROUND IMAGE SYSTEM
+
+Use high-quality medical/clinic imagery throughout selected sections.
+
+Do not use random images.
+
+Hero:
+
+Large cinematic clinic/medical atmosphere.
+
+About:
+
+Subtle image.
+
+Clinic:
+
+Clinic environment.
+
+Contact:
+
+Location/clinic imagery.
+
+Use overlays to maintain readability.
+
+---
+
+# 49. DESIGN SYSTEM
+
+Create reusable components:
+
+Button
+
+Input
+
+Select
+
+Modal
+
+Toast
+
+Badge
+
+Avatar
+
+Card
+
+DoctorCard
+
+AppointmentCard
+
+CertificateCard
+
+ReviewCard
+
+StatCard
+
+ChartCard
+
+Navbar
+
+Sidebar
+
+MobileBottomNav
+
+Calendar
+
+TimeSlot
+
+DatePicker
+
+Table
+
+Pagination
+
+Tabs
+
+Dropdown
+
+Loading
+
+Skeleton
+
+EmptyState
+
+ErrorState
+
+---
+
+# 50. TECHNOLOGY
+
+Preferred frontend:
+
+React
+
+TypeScript
+
+Vite
+
+Tailwind CSS
+
+React Router
+
+React Hook Form
+
+Zod
+
+TanStack Query
+
+Lucide React
+
+Motion
+
+Recharts
+
+Axios
+
+Use clean scalable architecture.
+
+---
+
+# 51. FRONTEND STRUCTURE
+
+Use:
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── ui/
+│   ├── public/
+│   ├── patient/
+│   └── admin/
+│
+├── pages/
+│   ├── public/
+│   ├── auth/
+│   ├── patient/
+│   └── admin/
+│
+├── layouts/
+├── api/
+├── services/
+├── hooks/
+├── types/
+├── utils/
+├── context/
+├── routes/
+└── App.tsx
+```
+
+Keep components reusable.
+
+Avoid duplicated code.
+
+---
+
+# 52. API INTEGRATION
+
+The frontend must be ready for a real ASP.NET Core Web API.
+
+Use:
+
+```env
+VITE_API_URL=
+```
+
+Never hardcode API URLs.
+
+Create API modules:
+
+```text
+authApi
+
+doctorApi
+
+patientApi
+
+appointmentApi
+
+availabilityApi
+
+reviewApi
+
+certificateApi
+
+analyticsApi
+
+```
+
+Handle:
+
+200
+
+201
+
+400
+
+401
+
+403
+
+404
+
+409
+
+422
+
+500
+
+---
+
+# 53. APPOINTMENT BUSINESS LOGIC
+
+Frontend must correctly represent backend business logic.
+
+Important:
+
+A patient cannot book an unavailable slot.
+
+A patient cannot book the same slot twice.
+
+Pending bookings must appear immediately in My Appointments.
+
+Accepted bookings must change automatically when refreshed.
+
+Rejected bookings must appear as rejected.
+
+Cancelled bookings must remain visible in booking history.
+
+Completed appointments must be marked accordingly.
+
+---
+
+# 54. SECURITY
+
+Never trust frontend authorization.
+
+Backend must enforce:
+
+- Admin authorization
+- Patient authorization
+- Ownership checks
+- Appointment access rules
+
+A patient must only be able to see their own appointments.
+
+A patient must never be able to access another patient's data.
+
+A patient must never access doctor admin endpoints.
+
+---
+
+# 55. PRIVACY
+
+Patient information is private.
+
+Do not display sensitive patient data publicly.
+
+Reviews should not expose unnecessary personal information.
+
+Doctor admin dashboard must remain private.
+
+---
+
+# 56. ACCESSIBILITY
+
+Follow accessibility best practices.
+
+Support:
+
+- Keyboard navigation
+- Screen readers
+- Focus states
+- Good contrast
+- Proper labels
+- Accessible dialogs
+- Semantic HTML
+
+---
+
+# 57. PERFORMANCE
+
+Optimize:
+
+Images
+
+Code splitting
+
+Lazy loading
+
+API requests
+
+Search
+
+Charts
+
+Dashboard rendering
+
+Use caching and pagination.
+
+The website should feel extremely fast.
+
+---
+
+# 58. SEO
+
+Public doctor pages should have:
+
+SEO title
+
+Meta description
+
+Open Graph
+
+Structured headings
+
+Semantic HTML
+
+Clean URLs
+
+Doctor information suitable for search engines.
+
+Do NOT expose private admin pages to search engines.
+
+---
+
+# 59. ERROR PAGES
+
+Create premium:
+
+404
+
+403
+
+500
+
+Network Error
+
+Session Expired
+
+No Results
+
+No Appointments
+
+No Available Slots
+
+Each must have useful recovery actions.
+
+---
+
+# 60. EMPTY STATES
+
+Examples:
+
+"No appointments yet."
+
+"No available slots for this day."
+
+"No reviews yet."
+
+"No certificates available."
+
+"No notifications."
+
+Make each state visually polished.
+
+---
+
+# 61. NOTIFICATION TOASTS
+
+Examples:
+
+"Appointment request sent successfully."
+
+"Appointment accepted."
+
+"Appointment rejected."
+
+"Appointment cancelled."
+
+"Profile updated successfully."
+
+"Certificate added successfully."
+
+Use elegant toast notifications.
+
+---
+
+# 62. BOOKING CONFIRMATION
+
+After successful booking:
+
+Show a beautiful confirmation screen.
+
+Title:
+
+**Appointment Request Sent**
+
+Message:
+
+"Your appointment request has been sent to Dr. Khaled Yasser. You'll see the updated status in My Appointments once it has been reviewed."
+
+Display:
+
+Booking ID
+
+Doctor
+
+Date
+
+Time
+
+Type
+
+Status:
+
+**Pending**
+
+Buttons:
+
+**View My Appointments**
+
+**Contact Doctor on WhatsApp**
+
+---
+
+# 63. ADMIN APPOINTMENT ACCEPTANCE
+
+When doctor clicks:
+
+**Accept Appointment**
+
+Show confirmation dialog:
+
+"Are you sure you want to accept this appointment?"
+
+After confirmation:
+
+Status becomes:
+
+**Accepted**
+
+Show success toast.
+
+Patient dashboard reflects the change.
+
+---
+
+# 64. ADMIN REJECTION
+
+When doctor clicks:
+
+**Reject**
+
+Ask for optional rejection reason.
+
+Store reason.
+
+Patient can see:
+
+Rejected
+
+Reason:
+
+[Doctor's reason]
+
+---
+
+# 65. WHATSAPP CONTACT
+
+Global WhatsApp number:
+
+**+20 12 85566897**
+
+Every WhatsApp button should use this number.
+
+Public CTA:
+
+**Chat with Dr. Khaled**
+
+Patient booking CTA:
+
+**Send Booking Details via WhatsApp**
+
+Admin may also have:
+
+**Contact Patient**
+
+if appropriate.
+
+---
+
+# 66. IMPORTANT: DO NOT INVENT MEDICAL INFORMATION
+
+Do not invent:
+
+- Specialty
+- Degrees
+- Certificates
+- Clinic address
+- Experience
+- Medical services
+- Reviews
+
+Use placeholders such as:
+
+`[Doctor Specialty]`
+
+`[Clinic Address]`
+
+`[Medical Degree]`
+
+until actual information is supplied.
+
+The uploaded doctor image is real and should be used.
+
+---
+
+# 67. FINAL NAVIGATION
+
+Public:
+
+Home
+
+About
+
+Specialization
+
+Certificates
+
+Reviews
+
+Clinic
+
+Contact
+
+Book Appointment
+
+Login
+
+Create Account
+
+Patient:
+
+Home
+
+My Appointments
+
+Book Appointment
+
+Doctor
+
+Notifications
+
+Profile
+
+Settings
+
+Doctor Admin:
+
+Dashboard
+
+Appointments
+
+Calendar
+
+Patients
+
+Availability
+
+Reviews
+
+Certificates
+
+Website Analytics
+
+Profile
+
+Settings
+
+Logout
+
+---
+
+# 68. FINAL GOAL
+
+The final website must look like a **premium real-world doctor brand**.
+
+When a client sees the project in a freelance portfolio, they should immediately understand that this developer can build:
+
+- Professional websites
+- Full-stack systems
+- Authentication
+- Appointment systems
+- Dashboards
+- Analytics
+- Role-based authorization
+- API integrations
+- Responsive applications
+- Real business logic
+
+This should NOT look like a university project.
+
+It should look like a product that a real doctor could launch commercially.
+
+---
+
+# 69. FINAL IMPLEMENTATION RULE
+
+Build the application completely.
+
+Do not stop after creating the homepage.
+
+Implement:
+
+1. Public Doctor Website
+2. Doctor Profile
+3. Certificates
+4. Reviews
+5. Clinic Information
+6. WhatsApp Integration
+7. Google Authentication
+8. Patient Registration
+9. Patient Login
+10. Patient Dashboard
+11. Appointment Booking
+12. Appointment Status Tracking
+13. My Appointments
+14. Appointment Details
+15. Doctor Admin Login
+16. Doctor Dashboard
+17. Appointment Management
+18. Patient Management
+19. Availability Management
+20. Calendar
+21. Website Analytics
+22. Certificate Management
+23. Review Management
+24. Doctor Profile Management
+25. Notifications
+26. Dark Mode
+27. Light Mode
+28. Arabic RTL
+29. English LTR
+30. Responsive Mobile Experience
+31. Loading States
+32. Empty States
+33. Error States
+34. 404 / 403 / 500
+35. API Integration Layer
+36. Secure Role-Based Routing
+37. Premium Animations
+38. SEO
+39. Accessibility
+40. Production-ready architecture
+
+Use the uploaded photo of Dr. Khaled Yasser as the official doctor portrait throughout the website.
+
+The final visual identity must be completely different from the previous MediBook/medical SaaS concept.
+
+The doctor is the brand.
+
+The booking system is the product.
+
+The patient portal and private doctor dashboard are the application.
+
+Make every screen feel connected to the same premium visual identity.
